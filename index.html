@@ -46,9 +46,28 @@
 		<model-viewer id="model" src="win atom.glb" auto-rotate camera-controls skybox-image="stadium.hdr" animation-name="Running" autoplay ar></model-viewer>
 
 		<div class="btn-container">
-			<button type="button" onclick=a href="neo.html">RUN </button>
-			<button type="button" onclick="run()">RUN</button>
-			<button type="button" onclick="take()">TAKE</button>
+			.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Buttons</h2>
+
+<button>Default Button</button>
+<a href="neo.html" class="button">Link Button</a>
+<button class="button">Button</button>
+<input type="button" class="button" value="Input Button">
 	</div>
 </div>
 <script>
